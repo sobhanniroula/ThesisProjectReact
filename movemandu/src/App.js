@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar } from 'react-bootstrap';
+import { Nav, Navbar, NavItem } from 'react-bootstrap';
 import Routes from "./Routes";
 import './App.css';
 
@@ -16,7 +16,18 @@ class App extends Component {
                         <Navbar.Toggle />
                     </Navbar.Header> 
                     <Navbar.Collapse>
-                        
+                        <Nav pullLeft>
+                            <NavItem href="/services">Services</NavItem>
+                            <NavItem href="/">Students</NavItem>
+                            <NavItem href="/">Owners</NavItem>
+                            <NavItem href="/">Dealers</NavItem>
+                            <NavItem href="/">About</NavItem>
+                        </Nav>
+                        <Nav pullRight>
+                            <NavItem href="/signup">Signup</NavItem>
+                            <NavItem href="/login">Login</NavItem>
+                        </Nav>
+
                     </Navbar.Collapse>
                 </Navbar>
                 <Routes />
