@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import Routes from "./Routes";
 import './App.css';
 
@@ -11,21 +12,22 @@ class App extends Component {
                 <Navbar fluid collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <Link to='/'> Movemandu </Link> 
+                            <Link to="/"> Movemandu </Link> 
                         </Navbar.Brand> 
                         <Navbar.Toggle />
                     </Navbar.Header> 
                     <Navbar.Collapse>
                         <Nav pullLeft>
-                            <NavItem href="/services">Services</NavItem>
-                            <NavItem href="/">Students</NavItem>
-                            <NavItem href="/">Owners</NavItem>
-                            <NavItem href="/">Dealers</NavItem>
-                            <NavItem href="/">About</NavItem>
+                            <LinkContainer to="/services"><NavItem>Services</NavItem></LinkContainer>
+                            <LinkContainer to="/students"><NavItem>Students</NavItem></LinkContainer>
+                            <LinkContainer to="/owners"><NavItem>Owners</NavItem></LinkContainer>
+                            <LinkContainer to="/dealers"><NavItem>Dealers</NavItem></LinkContainer>
+                            <LinkContainer to="/about"><NavItem>About</NavItem></LinkContainer>
+                            
                         </Nav>
                         <Nav pullRight>
-                            <NavItem href="/signup">Signup</NavItem>
-                            <NavItem href="/login">Login</NavItem>
+                            <LinkContainer to="/signup"><NavItem>Signup</NavItem></LinkContainer>
+                            <LinkContainer to="/login"><NavItem>Login</NavItem></LinkContainer>
                         </Nav>
 
                     </Navbar.Collapse>

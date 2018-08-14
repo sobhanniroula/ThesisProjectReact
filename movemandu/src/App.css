@@ -28,7 +28,15 @@
   to { transform: rotate(360deg); }
 }
 */
-
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/mountain.jpg");
+    margin: 0;
+    padding: 0;
+ 
+   
+  
+    font-family: sans-serif monospace;
+}
 
 .App {
     margin-top: 15px;
@@ -36,4 +44,5 @@
 
 .App .navbar-brand {
     font-weight: bold;
+    color: aqua;
 }
