@@ -7,12 +7,10 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render( <
-    Router >
-    <
-    App / >
-    <
-    /Router>, 
+ReactDOM.render( 
+    <Router>
+    <App />
+    </Router>, 
     document.getElementById('root')
 );
 registerServiceWorker();
