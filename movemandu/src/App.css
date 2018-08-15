@@ -47,3 +47,12 @@ body {
     color: aqua;
 }
 
+
+@media screen and (max-width: 600px) {
+    .Loginbox {
+        opacity: 1.0;
+    }
+    .Signupbox {
+        opacity: 1.0;
+    }
+}
