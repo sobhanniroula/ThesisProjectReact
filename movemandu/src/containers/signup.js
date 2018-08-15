@@ -54,7 +54,7 @@ export default class Signup extends Component {
     renderConfirmationForm() {
         return (
         
-            <div>
+            <div className="Signupbox">
                 <form onSubmit={this.handleConfirmationSubmit}>
                     <FormGroup controlId="confirmationCode" bsSize="large">
                         <ControlLabel>Confirmation Code</ControlLabel>
@@ -70,7 +70,8 @@ export default class Signup extends Component {
     
     renderForm() {
         return (
-            <div>
+            <div className="Signupbox">
+                <h1> Signup Form </h1>
                  <form onSubmit={this.handleSubmit}>
                     <FormGroup controlId="email" bsSize="large">
                         <ControlLabel>Email</ControlLabel>

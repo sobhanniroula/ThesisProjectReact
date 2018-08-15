@@ -6,7 +6,7 @@
 
     .Signup form {
         margin: 0 auto;
-        max-width: 320px;
+        max-width: 330px;
     }
         
 }
@@ -15,4 +15,29 @@
     font-size: 14px;
     padding-bottom: 10px;
     color: #999;
+}
+
+.Signupbox {
+    background-color: lightseagreen;
+    width: 400px;
+    height: 600px;
+    position: fixed;
+    top: 10;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin: auto;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.Signupbox h1 {
+    margin: 10px 70px 50px 120px;
+    padding: 10px;
+    border: 0px;
+    display: inline-block;
+    color: aliceblue;
 }
