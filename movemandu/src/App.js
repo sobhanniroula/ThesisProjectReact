@@ -5,7 +5,6 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Auth } from 'aws-amplify';
 import Routes from "./Routes";
 import './App.css';
-import { logo } from './img/movemandu-black.png';
 
 class App extends Component {
     constructor(props) {
@@ -58,7 +57,7 @@ class App extends Component {
                 <Navbar fluid collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <Link to="/"> <img src={ logo } alt={"logo"} /> </Link> 
+                            <Link to="/"> <img src={require('./img/movemandu-black.png')} alt={"logo"} /> </Link> 
                         </Navbar.Brand> 
                         <Navbar.Toggle />
                     </Navbar.Header> 

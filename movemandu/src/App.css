@@ -42,6 +42,12 @@
     color: aqua;
 }
 
+.App img {
+    height: 35px;
+    width: auto;
+    padding-bottom: 5px;
+    }
+
 
 @media screen and (max-width: 600px) {
     .Loginbox {
