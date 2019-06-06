@@ -1,6 +1,8 @@
 .Home .welcome {
     padding: 80px 0;
     text-align: center;
+    margin-top: 500px;
+    margin-bottom: 20px;
 }
 
 .Home .welcome h1{

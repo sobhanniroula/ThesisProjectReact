@@ -63,11 +63,11 @@ class App extends Component {
                     </Navbar.Header> 
                     <Navbar.Collapse>
                         <Nav pullLeft>
-                            <LinkContainer to="/services"><NavItem>Services</NavItem></LinkContainer>
-                            <LinkContainer to="/students"><NavItem>Students</NavItem></LinkContainer>
-                            <LinkContainer to="/owners"><NavItem>Owners</NavItem></LinkContainer>
-                            <LinkContainer to="/dealers"><NavItem>Dealers</NavItem></LinkContainer>
-                            <LinkContainer to="/about"><NavItem>About</NavItem></LinkContainer>
+                            <LinkContainer to="/services"><NavItem>SERVICES</NavItem></LinkContainer>
+                            <LinkContainer to="/students"><NavItem>STUDENTS</NavItem></LinkContainer>
+                            <LinkContainer to="/owners"><NavItem>OWNERS</NavItem></LinkContainer>
+                            <LinkContainer to="/dealers"><NavItem>DEALERS</NavItem></LinkContainer>
+                            <LinkContainer to="/about"><NavItem>ABOUT</NavItem></LinkContainer>
                             
                         </Nav>
                         <Nav pullRight>
@@ -75,7 +75,7 @@ class App extends Component {
                                 ? <NavItem onClick={this.handleLogout}>Logout</NavItem>
                                 : <Fragment>    
                                     <LinkContainer to="/signup"><NavItem>Signup</NavItem></LinkContainer>
-                                    <LinkContainer to="/login"><NavItem>Login</NavItem></LinkContainer>
+                                    <LinkContainer to="/login"><NavItem>LOGIN</NavItem></LinkContainer>
                                 </Fragment>
                             }
                         </Nav>

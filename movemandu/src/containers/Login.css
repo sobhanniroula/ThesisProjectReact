@@ -13,7 +13,7 @@
     .Loginbox {
         background-color: #00bfff;
         width: 350px;
-        height: 500px;
+        height: 450px;
         position:absolute;
         top: 0;
         bottom: 0;
@@ -59,6 +59,8 @@
         width: 100%;
         margin-bottom: 20px;
     }
-   
+    LoaderButton p{
+        color: aliceblue;
+    }
     
 }

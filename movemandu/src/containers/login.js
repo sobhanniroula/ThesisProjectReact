@@ -55,7 +55,7 @@ export default class Login extends Component {
                     <ControlLabel>Password</ControlLabel>
                     <FormControl value={this.state.password} onChange={this.handleChange} type="password" />
                 </FormGroup>
-                <LoaderButton block bsSize="large" disabled={!this.validateForm()} type="submit" isLoading={this.state.isLoading} text="Login" loadingText="Logging in..." /> 
+                <LoaderButton block bsSize="large" disabled={!this.validateForm()} type="submit" isLoading={this.state.isLoading} text="LOGIN" loadingText="Logging in..." /> 
 {/* validateForm checks if the input field is empty or not */}
             </form>
         </div>
