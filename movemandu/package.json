@@ -18,6 +18,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "aws-sdk": "^2.293.0"
+    "aws-sdk": "^2.814.0"
   }
 }
